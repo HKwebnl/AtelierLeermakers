@@ -26,12 +26,30 @@
     }
 }
 
+svg {
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
 /* flex styles -------------------------------------- */
 .logo {
     display: flex;
     align-items: center;
     text-decoration: none;
+    
+    color: white;
+    width: 100%;
+    height: auto;
 }
+
+.logo svg {
+    width: 100%;
+    height: auto;
 
 /* generic styles ----------------------------------- */
 body {
