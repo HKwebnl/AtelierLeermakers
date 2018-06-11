@@ -50,6 +50,7 @@ svg:not(:root) {
 .logo svg {
     width: 100%;
     height: auto;
+}
 
 /* generic styles ----------------------------------- */
 body {
